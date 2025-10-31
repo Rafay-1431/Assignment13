@@ -1,0 +1,137 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* header{
+    position: sticky;
+    z-index: 4;
+} */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 15px 62px;
+  background: rgba(0, 0, 0, 0.6);
+}
+.logo {
+  color: #fff;
+  font-size: 20px;
+  border: 2px solid #fff;
+  padding: 2px 10px;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+.nav-links a.active,
+.nav-links a:hover {
+  color: #f09a77;
+}
+.nav-buttons {
+  display: flex;
+  gap: 30px;
+}
+.btn {
+  text-decoration: none;
+  background: #f09a77;
+  color: #ffff;
+  padding: 10px 20px;
+  font-size: 15px;
+  border: none;
+  border-radius: 2px;
+}
+.hero{
+    position: relative;
+    height: 100vh;
+   
+    background: url(https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1920&q=80);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+}
+.overlay{
+    position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+     background: rgba(0, 0, 0, 0.6)
+}
+.hero-content{
+    position: relative;
+    max-width: 900px;
+    width: 90%;
+}
+.hero h1{
+    font-size: 70px;
+    font-weight: 600;
+      letter-spacing: 2px;
+      margin-bottom: 50px;
+      color: #fff;
+}
+.booking-form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+}
+.booking-form input{
+     padding: 12px 20px;
+      background: transparent;
+      border: 2px solid #fff;
+      color: #fff;
+      width: 160px;
+      font-size: 14px; 
+}
+.book-now {
+      background: #f09a77;
+      border: none;
+      color: #fff;
+      padding: 12px 28px;
+      cursor: pointer;
+}
+.features{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 60px;
+    padding: 100px 60px;
+    text-align: center;
+}
+.features h3{
+    font-size: 32px;
+      font-weight: 600;
+      margin-bottom: 15px;
+      color: #666;
+}
+.features p{
+      font-size: 15px;
+      line-height: 1.8;
+      color: #666;
+    }
+    .gallery {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.construct{
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
